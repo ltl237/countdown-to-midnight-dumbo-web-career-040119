@@ -3,7 +3,7 @@
 def countdown(number_of_seconds)
   counter = 0  
   while counter < number_of_seconds
-    puts "#{counter - number_of_seconds} SECOND(S)!"
+    puts "#{number_of_seconds - counter} SECOND(S)!"
     counter += 0 
   end
   
