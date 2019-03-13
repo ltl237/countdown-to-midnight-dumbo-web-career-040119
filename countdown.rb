@@ -3,6 +3,7 @@
 def countdown(number_of_seconds)
   counter = 0  
   while counter < number_of_seconds
+    break if 
     puts "#{number_of_seconds - counter} SECOND(S)!"
     counter += 1
   end
